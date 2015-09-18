@@ -1,7 +1,11 @@
 require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
-
+require 'aliyun/mqs'
+require 'aliyun/mqs/queue'
+require 'aliyun/mqs/message'
+require 'aliyun/mqs/request'
+require 'aliyun/mqs/cli'
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)

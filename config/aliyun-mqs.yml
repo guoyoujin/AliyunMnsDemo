@@ -1,0 +1,4 @@
+access_id:  '你的Access Key ID'
+key:        'Access Key Secret'
+region:     '队列列表区域如cn-beijing'
+owner_id:   '账号ID'
