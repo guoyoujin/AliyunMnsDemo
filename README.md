@@ -8,7 +8,9 @@ Talk to the mighty Aliyun MQS with charming ruby.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'aliyun-mqs'
+仔细看lib/alimns这个包，如果你要新建一个项目那么你必须把这个文件复制到你的项目的lib目录下，并且需要在Gemfile里面引用代码如下
+gem "alimns", :path => "./lib/alimns"
+你也可以直接在这个项目里面运行，你只需要按照下面的配置方法即可运行起来
 ```
 
 And then execute:
